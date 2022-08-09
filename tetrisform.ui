@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TetrisForm</class>
+ <widget class="QWidget" name="TetrisForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>332</width>
+    <height>401</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <widget class="Pic" name="l2">
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>nth.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="Pic" name="l6">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>nth.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="Pic" name="l4">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>nth.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="Pic" name="l7">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>nth.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="Pic" name="l3">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>nth.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="Pic" name="l9">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>nth.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="Pic" name="l5">
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>nth.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="Pic" name="l8">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>nth.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="Pic" name="l1">
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>nth.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="newGame">
+       <property name="text">
+        <string>новая игра</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="soloGame">
+       <property name="text">
+        <string>новая игра с компьютером</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="playerSign">
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="msg">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Pic</class>
+   <extends>QLabel</extends>
+   <header>pic.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
